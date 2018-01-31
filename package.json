@@ -1,0 +1,45 @@
+{
+  "name": "typescript-less-react-mobx-inversify-navigo-boilerplate",
+  "version": "1.0.0",
+  "description": "The name says it all. Don't tell me the name is not sexy.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently -k \"node scripts/build.js -w \" \"http-server ./dist/dev -s -c-1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swhitf/typescript-less-react-mobx-inversify-navigo-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "Stephen Whitfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swhitf/typescript-less-react-mobx-inversify-navigo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/swhitf/typescript-less-react-mobx-inversify-navigo-boilerplate#readme",
+  "devDependencies": {
+    "browserify": "^15.2.0",
+    "fs-extra": "^5.0.0",
+    "gaze": "^1.1.2",
+    "less": "^2.7.3",
+    "rimraf": "^2.6.2",
+    "tsify": "^3.0.4",
+    "typescript": "^2.6.2",
+    "watchify": "^3.10.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.35",
+    "@types/react-dom": "^16.0.3",
+    "inversify": "^4.10.0",
+    "inversify-inject-decorators": "^3.1.0",
+    "mobx": "^3.4.1",
+    "mobx-react": "^4.3.5",
+    "navigo": "^7.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
